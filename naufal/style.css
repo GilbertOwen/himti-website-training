@@ -1,0 +1,125 @@
+body {
+    font-family: "DM Sans";
+    margin: 0;
+    padding: 0;
+    background-color: #808AE7;
+  }
+  
+  .events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  .event-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  
+  .events-title {
+    font-family: "DM Sans";
+    font-size: 40px;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 40px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+  }
+  
+  .event-layout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .event-illustration {
+        width: 350px; 
+        position: absolute;
+        top: px;
+        right: 500px;
+        z-index: 1;
+  }
+  
+  .event-details {
+    font-family: "Space Grotesk";
+    color: #2517BC;
+    flex-grow: 1;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .event-header h2 {
+    color: #723b8f;
+    font-family: "Space Grotesk";
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 500px;
+  }
+  
+  .event-date,
+  .event-location {
+    color: #1b9eb9;
+    font-family:"Space Grotesk";
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+
+  .event-content p {
+    font-family: "Space Grotesk";
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.6;
+    margin: 10px 0;
+    padding-left: 350px;
+  }
+  
+  .event-content em {
+    color: #6c757d;
+  }
+  
+  .register-btn {
+    margin-top: 20px;
+    background-color: #723b8f;
+    color: #ffffff;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .register-btn:hover {
+    background-color: #5e2e71;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .event-layout {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .event-details {
+      text-align: left;
+    }
+  
+    .register-btn {
+      align-self: center;
+    }
+  }
+  
